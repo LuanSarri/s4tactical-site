@@ -7,7 +7,6 @@ import './Sobre.css'
 function Sobre() {
     return (
         <>
-        <h1 id="sobre">Sobre</h1>
         <div className="about-section">
         <div data-aos="fade-left" className="inner-container">
             <h1>Marcelo Sarri</h1>

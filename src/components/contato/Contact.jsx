@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import {FaWhatsapp} from 'react-icons/fa'
+import {IoLogoInstagram} from 'react-icons/io'
 
 import './Contact.css';
 
@@ -22,7 +22,6 @@ export default function Contact() {
 
   return (
     <>
-    <h1 id="contato">Contato</h1> 
     <div data-aos="fade-right" className="contact-section">
         <div data-aos="fade-right" className="contact-dentro">
           <form className="contact-form" onSubmit={sendEmail}>
@@ -39,12 +38,12 @@ export default function Contact() {
                   <option placeholder="Selecione" className="opt" value="Selecione" required></option>
                   <option className="opt" value="Orçamento">Orçamento</option>
                   <option className="opt" value="Dúvida">Dúvida</option>
-                  <option className="opt" value="Mensagem">Mensagem</option>
+                  <option className="opt" value="Outros">Outros</option>
                 </select>
                 <label className="label-contact" >Mensagem</label>
                 <textarea className="textarea-contact" name="message" required />
                 <button className="btn-contact"  type="submit" value="ENVIAR">ENVIAR</button>
-                {/* <p id="fale" > Fone:(19) 99731-6521</p> */}
+                <a id="insta-contact" href="https://instagram.com/instrutor_sarri?utm_medium=copy_link" target="_blank" ><p className="text1"><IoLogoInstagram size={30} /> @ instrutor.sarri</p></a>
               </div>
               
           </form>

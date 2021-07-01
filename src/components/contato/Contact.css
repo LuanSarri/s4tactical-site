@@ -1,19 +1,21 @@
-#contato{
+#insta-contact{
+    display: flex;
+    align-self: auto;
+    justify-content: center;
+    color: #dbb33c;
+    font-size: 20px;
     font-family: 'Encode Sans', sans-serif;
-    font-weight: bold;
-    font-size: 2.4rem;
-    color: rgb(58, 58, 58);
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
 }
 
 .contact-section{
-    background: url(contato.jpeg) no-repeat left;
-    background-size: 55%;
+    background: url(teste-imagem.png) no-repeat left;
+    background-size: 53%;
     background-color: #fdfdfd;
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: -5px;
+    margin-bottom: 40px;
     overflow: hidden;
     padding: 100px 0;
 }
@@ -22,7 +24,7 @@
     width: 55%;
     float: right;
     background-color: rgb(58, 58, 58);
-    padding: 111px;
+    padding: 105px;
 }
 
 .input-contact{
@@ -131,7 +133,7 @@
 
 @media screen and (max-width:1200px){
     .contact-dentro{
-        padding: 80px;
+        padding: 20px;
     }
     .btn-contact{
         width: 100%;

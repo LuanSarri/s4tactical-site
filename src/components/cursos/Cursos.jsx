@@ -11,8 +11,7 @@ import curso3 from './curso3.jpeg';
 function Cursos() {
     return (
         <>
-            <h1 id="cursos">Cursos</h1>
-            <div data-aos="fade-down" className="curso-container">
+            <div className="curso-container">
                 <Card className="card-solo"  style={{ width: '27rem' }}>
                     <Card.Img className="zoom" variant="top" src={curso1} />
                     <Card.Body>

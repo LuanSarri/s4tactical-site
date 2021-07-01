@@ -1,28 +1,20 @@
-#despachante{
-    font-family: 'Encode Sans', sans-serif;
-    font-weight: bold;
-    font-size: 2.4rem;
-    color: rgb(58, 58, 58);
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 .sessao-despa{
-    background: url(despachante.jpg) no-repeat right;
-    background-size: 60%;
+    background: url(despachante.jpg) no-repeat left;
+    background-size: 55%;
     background-color: #fdfdfd;
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     overflow: hidden;
     padding: 20px 0;
 }
 
 .container-dentro{
     width: 50%;
-    float: left;
+    float: right;
     background-color: rgb(58, 58, 58);
-    padding: 150px;
+    padding: 43px;
 }
 
 .container-dentro h1{
@@ -61,14 +53,14 @@
 
 @media screen and (max-width:1200px){
     .container-dentro{
-        padding: 25px;
+        padding: 27px;
     }
 }
 
 @media screen and (max-width:1000px){
     .sessao-despa{
         background-size: 100%;
-        padding: 100px 40px;
+        padding: 100px 0px;
         
     }
     .container-dentro{

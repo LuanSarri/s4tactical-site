@@ -1,17 +1,18 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
+import Curso2 from '../cursos/Curso2';
 import Footer from '../footer/Footer';
-import Cursos from '../cursos/Cursos';
 
 
-function CursosPage () {
+
+function Curso2Page () {
     return (
         <>
         <Navbar />
-        <Cursos />
+        <Curso2 />
         <Footer />
         </>
     )
 }
 
-export default CursosPage;
+export default Curso2Page;

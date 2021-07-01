@@ -32,6 +32,9 @@ function Curso1() {
             <Btn target="/Contato" className='btns' buttonStyle="btn--cursos">
                 CONTATO
             </Btn>
+            <Btn target="/cursos" id='btns-voltar' buttonStyle="btn--cursos">
+                VOLTAR AOS CURSOS
+            </Btn>
         </>
     );
   }

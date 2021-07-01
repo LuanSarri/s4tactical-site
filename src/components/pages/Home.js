@@ -12,9 +12,6 @@ function Home () {
         <>
         <Navbar />
         <HeroSection />
-        <Cursos />
-        <Sobre />
-        <Despachante />
         <Footer />
         </>
     )

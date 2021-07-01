@@ -6,7 +6,7 @@ import { Btn } from '../button/Btn'
 function Despachante() {
     return (
         <>
-        <h1 id="despachante">Despachante</h1>
+        
         <div className="sessao-despa">
         <div data-aos="fade-right" className="container-dentro">
             <h1>Evite dor de cabeça e perda de tempo, contrate nossos serviços!</h1>

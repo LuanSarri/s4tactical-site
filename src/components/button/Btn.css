@@ -12,6 +12,8 @@
 
 }
 
+
+
 .btn:focus{
     text-decoration: none;
     outline:none;
@@ -33,8 +35,19 @@
     background-color: #3a3a3a;
     text-decoration: none;
     color: white;
-    margin-bottom: 200px;
+    margin-bottom: 70px;
 }
+
+#btns-voltar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3a3a3a;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 50px;
+}
+
 
 .btn--cursos:focus{
     outline:none;
