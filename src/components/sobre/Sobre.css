@@ -1,0 +1,91 @@
+#sobre{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.about-section{
+    background: url(sobre.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: rgb(58, 58, 58);
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', Arial, sans-serif;
+}
+
+.text{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    text-indent: 1em;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.text1{
+    font-size: 20px;
+    color: #DBB33C;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.skills{
+    display: flex;
+    align-self: auto;
+    justify-content: center;
+    color: #dbb33c;
+    font-size: 20px;
+    
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 25px;
+    }
+    .inner-container{
+        width: 100%;
+        background-color:rgba(58, 58, 58, 0.924);
+    }
+}
+
+@media screen and (max-width: 500px){
+    .inner-container{
+        background-color:rgba(58, 58, 58, 0.924);
+    }
+}
+

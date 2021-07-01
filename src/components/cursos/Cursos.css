@@ -1,0 +1,86 @@
+#cursos{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.curso-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.card-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-curso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zoom{
+    transition: transform .2s; 
+}
+
+.zoom:hover {
+    transform: scale(1.1); 
+  }
+
+.texto-solo{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.title-solo{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+@media only screen and (max-width: 375px){
+    .curso-container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+@media only screen and (max-width: 960px){
+    .curso-container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-solo{
+        margin-bottom: 40px;
+    }
+ 
+
+}
+@media only screen and (max-width: 500px){
+    .curso-container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-solo{
+        margin-bottom: 40px;
+    }
+  
+
+}

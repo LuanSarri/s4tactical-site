@@ -1,0 +1,174 @@
+#contato{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-section{
+    background: url(contato.jpeg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.contact-dentro{
+    width: 55%;
+    float: right;
+    background-color: rgb(58, 58, 58);
+    padding: 111px;
+}
+
+.input-contact{
+        
+        font-size: 21px;
+        font-family: 'Encode Sans', sans-serif;
+        border-color: #dbb33c;
+        background-color: transparent;
+        color: white;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 1px rgba(66,66,66,.21);
+        text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+
+.input-contact:focus {
+    outline:none;
+}
+
+.label-contact{
+    text-align:left;
+    font-family: 'Encode Sans', sans-serif;
+    color: white;
+    font-size:1.4em;
+}
+
+.contact-div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#title-contact{
+    color: white;
+    font-size: 33px;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+.select-contact{
+    text-align:left;
+    font-family: 'Encode Sans', sans-serif;
+    color: white;
+    font-size: 19px;
+    background: transparent;
+    /* border: solid 2px #dbb33c; */
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px #dbb33c;
+    margin-bottom: 20px;
+}
+
+.select-contact:focus {
+    outline:none;
+}
+
+.opt{
+    background: #3a3a3a;
+    border: none;
+    font-family: 'Encode Sans', sans-serif;
+    color: white;
+    font-size: 21px;
+}
+
+.textarea-contact{
+    text-align:left;
+    font-family: 'Encode Sans', sans-serif;
+    color: white;
+    font-size: 19px;
+    background: transparent;
+    border: solid 2px #dbb33c;
+    resize: none;
+    margin-bottom: 50px;
+    height: 100px;
+}
+
+.textarea-contact:focus {
+    outline:none;
+}
+
+.btn-contact{
+    background-color: #DBB33C;
+    color: #242424;
+    padding: 8px 20px;
+    font-size: 4.0rem;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    width: 30%;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-contact:hover{
+    background: #242424;
+    border: 2px solid #DBB33C;
+    color: #DBB33C;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width:1200px){
+    .contact-dentro{
+        padding: 80px;
+    }
+    .btn-contact{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .contact-section{
+        background-size: 100%;
+        padding: 25px;
+        background: none;
+    }
+    .contact-dentro{
+        width: 100%;
+    }
+    .btn-contact{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .contact-dentro{
+        background-color:rgba(58, 58, 58, 0.924);
+    }
+    .contact-section{
+        background-image: none;
+    }
+    .btn-contact{
+        width: 100%;
+    }
+    .label-contact{
+        font-size:1.2em;
+    }
+    .input-contact{
+        font-size: 18px;
+    }
+    .opt{
+        font-size: 18px;
+    }
+}
