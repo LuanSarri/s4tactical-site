@@ -108,4 +108,21 @@
       margin-bottom: 300px;
     }
   }
+
+  @media only screen and (max-width: 500px) {
+    .hero-container > h1{
+      font-size: 49px;
+    }
   
+  @media only screen and (max-width: 500px) {
+    .hero-container > h1{
+      font-size: 49px;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .hero-container > h1{
+      font-size: 39px;
+    }
+  }
+}

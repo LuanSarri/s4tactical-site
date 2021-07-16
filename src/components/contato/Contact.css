@@ -143,8 +143,6 @@
 @media screen and (max-width:1000px){
     .contact-section{
         background-size: 100%;
-        padding: 25px;
-        background: none;
     }
     .contact-dentro{
         width: 100%;
@@ -156,11 +154,21 @@
 
 @media screen and (max-width: 500px){
     .contact-dentro{
-        background-color:rgba(58, 58, 58, 0.924);
+        background-color:rgba(58, 58, 58);
+        margin-top: 55%;
     }
     .contact-section{
-        background-image: none;
+        background: url(teste-imagem.png) no-repeat top;
+        background-size: 100%;
+        background-color: #fdfdfd;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        overflow: hidden;
+        padding: 100px 0;
     }
+
     .btn-contact{
         width: 100%;
     }
@@ -172,5 +180,23 @@
     }
     .opt{
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .inner-container{
+        background-color:rgba(58, 58, 58);
+        margin-top: 55%;
+    }
+    .about-section{
+        background: url(teste-imagem.png) no-repeat top;
+        background-size: 100%;
+        background-color: #fdfdfd;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        overflow: hidden;
+        padding: 100px 0;
     }
 }
