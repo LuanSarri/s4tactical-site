@@ -22,7 +22,7 @@
     color: #fff;
     justify-self: start;
     margin-left: 20px;
-    position: static;
+    position: fixed;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -34,12 +34,7 @@
     width: 140px;
     height: 140px;
     position: fixed;
-    margin-left: -6px;
-    margin-top: 80px;
     cursor: pointer;
-    display: flex;
-    align-items: left;
-    
   }
 
   @media only screen and (max-width: 1820px) {
