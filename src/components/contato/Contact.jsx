@@ -43,7 +43,7 @@ export default function Contact() {
                 <label className="label-contact" >Mensagem</label>
                 <textarea className="textarea-contact" name="message" required />
                 <button className="btn-contact"  type="submit" value="ENVIAR">ENVIAR</button>
-                <a id="insta-contact" href="https://instagram.com/instrutor_sarri?utm_medium=copy_link" target="_blank" ><p className="text1"><IoLogoInstagram size={30} /> @ instrutor.sarri</p></a>
+                <a id="insta-contact" href="https://instagram.com/instrutor_sarri?utm_medium=copy_link" target="_blank" ><p className="text1"><IoLogoInstagram size={30} /> @ instrutor_sarri</p></a>
               </div>
               
           </form>

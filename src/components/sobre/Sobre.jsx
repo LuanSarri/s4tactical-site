@@ -19,7 +19,7 @@ function Sobre() {
             Entre em contato e agende um treino! <br /> 
             </p>
             <div className="skills">
-                <a href="https://instagram.com/instrutor_sarri?utm_medium=copy_link" target="_blank" ><p className="text1"><IoLogoInstagram size={30} /> @ instrutor.sarri</p></a>
+                <a href="https://instagram.com/instrutor_sarri?utm_medium=copy_link" target="_blank" ><p className="text1"><IoLogoInstagram size={30} /> @ instrutor_sarri</p></a>
             </div>
         </div>
     </div>

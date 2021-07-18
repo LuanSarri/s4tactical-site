@@ -78,14 +78,14 @@
         margin-top: 95px;
         width: 160px;
         height: 160px;
-    }  
+    }
+
   }
-  
   
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 50px;
+    grid-gap: 27px;
     list-style: none;
     text-align: center;
     width: 60vw;
@@ -94,6 +94,7 @@
     margin-right: 2rem;
     margin-top: 20px;
   }
+
   
   .nav-item {
     height: 80px;

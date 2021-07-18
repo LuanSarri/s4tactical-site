@@ -12,7 +12,7 @@ function Cursos() {
     return (
         <>
             <div className="curso-container">
-                <Card className="card-solo"  style={{ width: '27rem' }}>
+                <Card className="card-solo"  >
                     <Card.Img className="zoom" variant="top" src={curso1} />
                     <Card.Body>
                         <Card.Title className="title-solo" >Curso Básico</Card.Title>
@@ -25,7 +25,7 @@ function Cursos() {
                     </Card.Body>
                 </Card>
                 
-                <Card className="card-solo" style={{ width: '27rem' }}>
+                <Card className="card-solo">
                     <Card.Img className="zoom" variant="top" src={curso2} />
                     <Card.Body>
                         <Card.Title className="title-solo" >Curso Intermediário</Card.Title>
@@ -38,7 +38,7 @@ function Cursos() {
                     </Card.Body>
                 </Card>
                 
-                <Card  style={{ width: '27rem' }}>
+                <Card >
                     <Card.Img className="zoom" variant="top" src={curso3} />
                     <Card.Body>
                         <Card.Title className="title-solo" >Discovery</Card.Title>
