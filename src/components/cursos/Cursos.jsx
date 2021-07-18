@@ -38,7 +38,7 @@ function Cursos() {
                     </Card.Body>
                 </Card>
                 
-                <Card >
+                <Card className="card-solo" >
                     <Card.Img className="zoom" variant="top" src={curso3} />
                     <Card.Body>
                         <Card.Title className="title-solo" >Discovery</Card.Title>
