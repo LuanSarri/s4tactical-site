@@ -32,7 +32,7 @@ a{
 .text{
     font-size: 20px;
     color: #ffffff;
-    line-height: 30px;
+    line-height: 1.5;
     text-align: justify;
     margin-bottom: 40px;
     text-indent: 1em;
@@ -43,7 +43,7 @@ a{
     font-size: 20px;
     color: #DBB33C;
     font-weight: bold;
-    line-height: 30px;
+        
     margin-bottom: 30px;
     text-align: justify;
     font-family: 'Encode Sans', sans-serif;

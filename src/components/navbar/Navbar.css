@@ -32,30 +32,14 @@
   }
 
   .logo{
-    max-width: 100px;
-    max-height: inherit;
+    max-width: 150px;
+    max-height: 150px;
     cursor: pointer;
   }
 
   @media only screen and (max-width: 1820px) {
     .logo{
         margin-left: -73px;
-        max-width: 100px;
-        max-height: inherit;
-    }  
-  }
-
-  @media only screen and (max-width: 1920px) {
-    .logo{
-        margin-left: -83px;
-        width: 160px;
-        height: 160px;
-    }  
-  }
-
-  @media only screen and (max-width: 2560px) {
-    .logo{
-        margin-left: -137px;
         max-width: 100px;
         max-height: inherit;
     }  
@@ -216,7 +200,6 @@
       .nav-menu.active {
         background: linear-gradient(1deg, #0D0D0C 0%, #3a3a3a 100% );
         left: 0;
-        top: 80px;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;

@@ -58,6 +58,10 @@
     flex-direction: column;
 }
 
+.contact-div > h3, input, label{
+    padding-bottom: 9px;
+}
+
 
 #title-contact{
     color: white;
@@ -111,6 +115,8 @@
 
 .btn-contact{
     background-color: #DBB33C;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
     color: #242424;
     padding: 8px 20px;
     font-size: 4.0rem;
