@@ -7,7 +7,7 @@ import { Btn } from '../button/Btn'
 import curso1 from './curso1.jpeg';
 import curso2 from './curso2.jpeg';
 import curso3 from './curso3.jpeg';
- 
+
 function Cursos() {
     return (
         <>
@@ -17,42 +17,49 @@ function Cursos() {
                     <Card.Body>
                         <Card.Title className="title-solo" >Curso Básico</Card.Title>
                         <Card.Text className="texto-solo" >
-                        Curso destinado para aqueles que estão iniciando no mundo das armas e buscam pelos primeiros aprendizados.
+                            Curso destinado para aqueles que estão iniciando no mundo das armas e buscam pelos primeiros aprendizados.
                         </Card.Text>
-                        <div className="button-curso" >
-                        <Btn target="/curso1" className="card-button" variant="primary">Ver mais</Btn>
+                        <div className="footer-card">
+                            <div className="button-curso" >
+                                <Btn target="/curso1" className="card-button" variant="primary">Ver mais</Btn>
+                            </div>
                         </div>
                     </Card.Body>
                 </Card>
-                
+
                 <Card className="card-solo">
                     <Card.Img className="zoom" variant="top" src={curso2} />
                     <Card.Body>
                         <Card.Title className="title-solo" >Curso Intermediário</Card.Title>
                         <Card.Text className="texto-solo">
-                        Curso destinado para quem quer aprender novas técnicas de tiro, saque e combate para legitima defesa.
+                            Curso destinado para quem quer aprender novas técnicas de tiro, saque e combate para legitima defesa.
                         </Card.Text>
-                        <div className="button-curso">
-                        <Btn target="/curso2" className="card-button" variant="primary">Ver mais</Btn>
+                        <div className="footer-card">
+                            <div className="button-curso">
+                                <Btn target="/curso2" className="card-button" variant="primary">Ver mais</Btn>
+                            </div>
                         </div>
                     </Card.Body>
                 </Card>
-                
+
                 <Card className="card-solo" >
                     <Card.Img className="zoom" variant="top" src={curso3} />
                     <Card.Body>
                         <Card.Title className="title-solo" >Discovery</Card.Title>
                         <Card.Text className="texto-solo">
-                        Curso destinado para quem quer vivenciar a experiência de atirar em um clube de tiro.
+                            Curso destinado para quem quer vivenciar a experiência de atirar em um clube de tiro.
                         </Card.Text>
-                        <div className="button-curso">
-                        <Btn target="/curso3" className="card-button" variant="primary">Ver mais</Btn>
+                        <div className="footer-card">
+                            <div className="button-curso">
+                                <Btn target="/curso3" className="card-button" variant="primary">Ver mais</Btn>
+                            </div>
                         </div>
+
                     </Card.Body>
                 </Card>
             </div>
         </>
     );
-  }
-  
-  export default Cursos;
+}
+
+export default Cursos;

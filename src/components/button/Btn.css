@@ -9,7 +9,8 @@
     border: none;
     cursor: pointer;
     text-decoration: none;
-
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
 }
 
 
